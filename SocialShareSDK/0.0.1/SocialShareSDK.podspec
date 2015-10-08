@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://weibo.com/gsdios"
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
-  s.source       = { :git => "https://github.com/Peter006/ShareSDK.git", :commit => "dcdd72bedfbcafd162763245fe8557799f73b5ea" }
+  s.source       = { :git => "https://github.com/Peter006/ShareSDK.git", :commit => "b6b5624458bdc3dedd875f9b2141689b63b7eb17" }
   s.source_files  = "Extend/SinaWeiboSDK/*.h", "Extend/WeChatSDK/*.h"
   s.resources = "Core/Resource.bundle", "Extend/QQConnectSDK/TencentOpenApi_IOS_Bundle.bundle", "Extend/SinaWeiboSDK/WeiboSDK.bundle", "UI/ShareSDKFlatShareViewUI.bundle"
   s.resource_bundles = { "Core" => ["Core/*.lproj"]}
